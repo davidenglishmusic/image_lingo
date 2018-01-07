@@ -1,1 +1,28 @@
 /* Image Lingo CSS */
+
+#exercises {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.exercise-item {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.exercise-item .photo {
+  width: 280px;
+  height: 280px;
+  margin-bottom: 1rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.exercise-item input {
+  font-size: 1rem;
+  text-align: center;
+}
