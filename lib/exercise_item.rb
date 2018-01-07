@@ -1,9 +1,9 @@
 class ExerciseItem
-  attr_accessor :word, :search_term, :answer, :source
+  attr_accessor :word, :search_terms, :answer, :source
 
-  def initialize(word, search_term, answer, source = nil)
+  def initialize(word, search_terms, answer, source = nil)
     @word = word
-    @search_term = search_term
+    @search_terms = search_terms
     @answer = answer
     @source = source
   end

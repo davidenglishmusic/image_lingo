@@ -1,41 +1,41 @@
 [{
     "word": "apple",
-    "search term": "fruit apple",
+    "search terms": "fruit apple",
     "answer": "jablko"
   },
   {
     "word": "mountain",
-    "search term": "mountain",
+    "search terms": "mountain",
     "answer": "hora"
   },
   {
     "word": "fork",
-    "search term": "fork",
+    "search terms": "fork",
     "answer": "vidlička"
   },
   {
     "word": "green",
-    "search term": "color green",
+    "search terms": "color green",
     "answer": "zelená"
   },
   {
     "word": "stone",
-    "search term": "stone",
+    "search terms": "stone",
     "answer": "kámen"
   },
   {
     "word": "path",
-    "search term": "path",
+    "search terms": "path",
     "answer": "cesta"
   },
   {
     "word": "tree",
-    "search term": "tree",
+    "search terms": "tree",
     "answer": "strom"
   },
   {
     "word": "house",
-    "search term": "house",
+    "search terms": "house",
     "answer": "dům"
   }
 ]
