@@ -1,5 +1,5 @@
 class ImageBlockGenerator
   def self.generate(exersize_item)
-    "<div><img src=\"#{exersize_item.source}\"><input type=\"text\" data-answer=\"#{exersize_item.answer}\"></div>"
+    "<div class=\"exercise-item\"><div class=\"photo\" style=\"background-image:url('#{exersize_item.source}')\"></div><input type=\"text\" data-answer=\"#{exersize_item.answer}\"></div>"
   end
 end
