@@ -1,3 +1,5 @@
+require_relative 'image_block_generator'
+
 class DocumentAssembler
   def self.assemble(exercises)
     add_exercises(basic_document, exercises)

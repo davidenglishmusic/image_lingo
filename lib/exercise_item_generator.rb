@@ -1,5 +1,5 @@
 require 'json'
-require 'exercise_item'
+require_relative 'exercise_item'
 
 class ExerciseItemGenerator
   def self.items_from_json_file(file_path)
