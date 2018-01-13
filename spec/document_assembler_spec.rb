@@ -3,7 +3,7 @@ require 'exercise_item_generator'
 
 RSpec.describe DocumentAssembler do
   describe '#basic_document' do
-    xit 'returns the basic document with inlined javascript and css' do
+    it 'returns the basic document with inlined javascript and css' do
       basic_document = DocumentAssembler.basic_document
       expect(basic_document).to include('<!-- Image Lingo HTML -->')
       expect(basic_document).to include('/* Image Lingo CSS */')
