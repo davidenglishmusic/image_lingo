@@ -16,7 +16,7 @@ RSpec.describe DocumentAssembler do
       exercises = ExerciseItemGenerator.items_from_json_file('spec/fixtures/czech.json')
       exercises.each { |exercise| exercise.source = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg' }
       expect(DocumentAssembler.assemble(exercises))
-        .to include '<div class="exercise-item"><div class="photo" style="background-image:url(\'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg\')"></div><input type="text" data-answer="jablko"></div>'
+        .to include '<div class="exercise-item"><div class="photo" style="background-image:url(\'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg\')"></div><input type="text" data-answer="jablko" data-keyboard-answer="jablko"></div>'
     end
   end
 end
