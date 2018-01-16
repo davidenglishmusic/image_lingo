@@ -11,17 +11,20 @@
   {
     "word": "fork",
     "search terms": "fork",
-    "answer": "vidlička"
+    "answer": "vidlička",
+    "keyboard answer": "vidlicka"
   },
   {
     "word": "green",
     "search terms": "color green",
-    "answer": "zelená"
+    "answer": "zelená",
+    "keyboard answer": "zelena"
   },
   {
     "word": "stone",
     "search terms": "stone",
-    "answer": "kámen"
+    "answer": "kámen",
+    "keyboard answer": "kamen"
   },
   {
     "word": "path",
