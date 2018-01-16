@@ -18,12 +18,15 @@ Start by creating a json file with data mirroring the following:
   {
     "word": "fork",
     "search terms": "fork",
-    "answer": "vidlička"
+    "answer": "vidlička",
+    "keyboard answer": "vidlicka"
   }
 ]
 ```
 
-Then use the app.rb with necessary input and output arguments:
+*Note that in the last case, a keyboard answer data piece was added. This facilitates easier guesses when accents and other marks are not easily accessable on a particular keyboard.
+
+Then use app.rb with necessary input and output arguments:
 
 `$ ruby app.rb /Path/To/Input.json /Path/To/Output.html`
 
