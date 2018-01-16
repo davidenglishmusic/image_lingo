@@ -8,7 +8,7 @@ class ExerciseItemGenerator
         exercise['word'],
         exercise['search terms'],
         exercise['answer'],
-        exercise['keyboard_answer'],
+        exercise['keyboard answer'],
         exercise['source']
       )
     end
