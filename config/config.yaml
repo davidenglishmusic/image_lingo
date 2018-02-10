@@ -1,5 +1,7 @@
 crawler:
-  search_url: 'https://www.google.com/search?tbs=sur:fmc&tbm=isch&q='
+  search_url: 'https://www.google.com/search?'
+  image_search_param: 'tbm=isch'
+  license_param: 'tbs=sur:fmc'
   selector: '#isr_mc .rg_meta'
   attribute: 'ou'
   referer: 'https://www.google.com'

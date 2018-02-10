@@ -7,9 +7,13 @@ class GoogleImageCrawler
   CRAWLER_SETTINGS = YAML.load_file('config/config.yaml')['crawler']
 
   def self.query(text)
-    text.tr(' ', '+')
+    params = [
+      'q=' + text.tr(' ', '+'),
+      CRAWLER_SETTINGS['image_search_param'],
+      CRAWLER_SETTINGS['license_param']
+    ].join('&')
     doc = Nokogiri::HTML(
-      open("#{CRAWLER_SETTINGS['search_url']}#{text.tr(' ', '+')}",
+      open("#{CRAWLER_SETTINGS['search_url']}#{params}",
            'User-Agent' => CRAWLER_SETTINGS['user_agent'],
            'Referer' => CRAWLER_SETTINGS['referer'])
     )
